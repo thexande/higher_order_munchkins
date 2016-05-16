@@ -1,6 +1,8 @@
 var munchkins = ["kim", "tim", "sim", "bim", "whim"] ;
 $("#cats2_image").hide();
 $("#catsfilter2_image").hide();
+$("#catsreduce2_image").hide();
+$("#catsmap2_image").hide();
 
 $("#munchies1trigger").on("click", function (){
     $("#cats1_image").show();
