@@ -1,0 +1,15 @@
+.content_div{
+  padding: 10px;
+  border: 1px solid #444;
+  box-shadow: 1px 1px 5px #888888;
+  margin: 10px;
+}
+
+body{
+  padding: 10px;
+}
+
+.blocked{
+  display: block;
+  margin-top: 10px;
+}
