@@ -1,5 +1,7 @@
 ## Higher Order Munchkins
 
+![](https://github.com/Nmuta/higher_order_munchkins/blob/master/images/cats1.jpg)
+
 The title of the repo is the best I could come up with.
 Don't judge.
 
