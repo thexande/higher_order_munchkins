@@ -1,0 +1,24 @@
+{
+  "name": "higher_order_munchkins",
+  "version": "1.0.0",
+  "description": "![](https://github.com/Nmuta/higher_order_munchkins/blob/master/images/cats1.jpg)",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thexande/higher_order_munchkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thexande/higher_order_munchkins/issues"
+  },
+  "homepage": "https://github.com/thexande/higher_order_munchkins#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "codemirror": "^5.14.2",
+    "scroll-to-element": "^2.0.0"
+  }
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Higher Order Munchkins</title>
+    <link rel="stylesheet" href="./overrides.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="./node_modules/CodeMirror/theme/monokai.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Higher Order Munchkins</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Batch 1</a></li>
+                    <li><a href="#">Batch 2</a></li>
+                    <li><a href="#">Batch 3</a></li>
+                    <li><a href="#">Batch 4</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--  padd for fixed -->
+    <div class="page-header">
+        <h1>Instructions: <small>For each text box, enter a higher order function to operate on the given array of munchkins.</small></h1>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to Higher Order Munchkins!</h1>
+            <p>These exercises will help you understand the value of higher order functions in javascript.</p>
+            <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Munchkin Batch 1</h3>
+            </div>
+            <div class="panel-body">
+                <img src="images/cats1.png" id="cats1_image" />
+                <h4>Given an array called munchkins as such:</h4>
+                <h4>var munchkins = ["kim", "tim", "sim", "bim", "whim"] ;</h4>
+                <h4>
+                    Write a higher order function that adds them to an array called "truck"
+                </h4>
+                <div class="panel panel-success">
+                  <div class="panel-heading">Code Editor</div>
+                  <div class="panel-body"><textarea name="munchies1" rows="8" cols="40" id="munchies1" class="blocked"></textarea></div>
+                  <div class="panel-footer">
+                    <div class="btn-group pull-right">
+                      <a href="#" class="btn btn-success">Submit to JS REPL</a>
+                      <a href="#" class="btn btn-primary">Quick Check</a>
+                      <a href="#" class="btn btn-danger">Clear Editor</a>
+                  </div>
+                  <h4>Code Submission Options</h4>
+                  </div>
+                </div>
+                <button type="button" name="button" id="munchies1trigger" class="btn btn-success blocked">click me</button>
+                <div id="munchies1div"></div>
+                <img src="images/cats2.png" id="cats2_image" class="blocked" />
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Munchkin Batch 2</h3>
+            </div>
+            <div class="panel-body">
+                <img src="images/cats1.png" id="cats1_image" />
+                <h4>Given an array called munchkins as such:</h4>
+                <h4>var munchkins = ["kim", "tim", "sim", "bim", "whim"] ;</h4>
+                <h4>
+                    Write a higher order function that adds them to an array called "truck"
+                </h4>
+                <div class="panel panel-success">
+                  <div class="panel-heading">Code Editor</div>
+                  <div class="panel-body"><textarea name="munchies2" rows="8" cols="40" id="munchies2" class="blocked"></textarea></div>
+                  <div class="panel-footer">
+                    <div class="btn-group pull-right">
+                      <a href="#" class="btn btn-success">Submit to JS REPL</a>
+                      <a href="#" class="btn btn-primary">Quick Check</a>
+                      <a href="#" class="btn btn-danger">Clear Editor</a>
+                  </div>
+                  <h4>Code Submission Options</h4>
+                  </div>
+                </div>
+
+
+                <button type="button" name="button" id="munchies1trigger" class="btn btn-success blocked">click me</button>
+                <div id="munchies1div"></div>
+                <img src="images/cats2.png" id="cats2_image" class="blocked" />
+            </div>
+        </div>
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Munchkin Batch 3</h3>
+            </div>
+            <div class="panel-body">
+                <img src="images/cats1.png" id="cats1_image" />
+                <h4>Given an array called munchkins as such:</h4>
+                <h4>var munchkins = ["kim", "tim", "sim", "bim", "whim"] ;</h4>
+                <h4>
+                    Write a higher order function that adds them to an array called "truck"
+                </h4>
+                <div class="panel panel-success">
+                  <div class="panel-heading">Code Editor</div>
+                  <div class="panel-body"><textarea name="munchies3" rows="8" cols="40" id="munchies3" class="blocked"></textarea></div>
+                  <div class="panel-footer">
+                    <div class="btn-group pull-right">
+                      <a href="#" class="btn btn-success">Submit to JS REPL</a>
+                      <a href="#" class="btn btn-primary">Quick Check</a>
+                      <a href="#" class="btn btn-danger">Clear Editor</a>
+                  </div>
+                  <h4>Code Submission Options</h4>
+                  </div>
+                </div>
+
+
+                <button type="button" name="button" id="munchies3trigger" class="btn btn-success blocked">click me</button>
+                <div id="munchies3div"></div>
+                <img src="images/cats2.png" id="cats2_image" class="blocked" />
+            </div>
+        </div>
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Munchkin Batch 4</h3>
+            </div>
+            <div class="panel-body">
+                <img src="images/cats1.png" id="cats1_image" />
+                <h4>Given an array called munchkins as such:</h4>
+                <h4>var munchkins = ["kim", "tim", "sim", "bim", "whim"] ;</h4>
+                <h4>
+                    Write a higher order function that adds them to an array called "truck"
+                </h4>
+                <div class="panel panel-success">
+                  <div class="panel-heading">Code Editor</div>
+                  <div class="panel-body"><textarea name="munchies4" rows="8" cols="40" id="munchies4" class="blocked"></textarea></div>
+                  <div class="panel-footer">
+                    <div class="btn-group pull-right">
+                      <a href="#" class="btn btn-success">Submit to JS REPL</a>
+                      <a href="#" class="btn btn-primary">Quick Check</a>
+                      <a href="#" class="btn btn-danger">Clear Editor</a>
+                  </div>
+                  <h4>Code Submission Options</h4>
+                  </div>
+                </div>
+
+
+                <button type="button" name="button" id="munchies4trigger" class="btn btn-success blocked">click me</button>
+                <div id="munchies4div"></div>
+                <img src="images/cats2.png" id="cats2_image" class="blocked" />
+            </div>
+        </div>
+
+
+
+
+
+        <!-- end container -->
+    </div>
+
+
+    <h1>Instructions:</h1> For each text box, enter a higher order function to operate on the given array of munchkins.
+
+    <div class="content_div blocked">
+        <h1> Batch 1 </h1>
+        <img src="images/cats1.png" id="cats1_image" />
+        <p>Given an array called munchkins as such: </p>
+        var munchkins = ["kim", "tim", "sim", "bim", "whim"] ;
+        <p>
+            Write a higher order function that adds them to an array called "truck"
+        </p>
+
+
+        <textarea name="munchies1" rows="8" cols="40" id="munchies1" class="blocked"></textarea>
+        <button type="button" name="button" id="munchies1trigger" class="btn btn-success blocked">click me</button>
+        <div id="munchies1div"></div>
+        <img src="images/cats2.png" id="cats2_image" class="blocked" />
+    </div>
+
+    <!--- filter --->
+
+    <div class="content_div blocked">
+        <h1> Batch 2 </h1>
+        <img src="images/cats_filter1.png" id="catsfilter1_image" />
+        <p>Given an array called munchkins as such: </p>
+        var munchkins = [ {shirt: "red, name: "frisky"}, {shirt: "blue, name: "shorty"}, {shirt: "purple, name: "misty"}, {shirt: "green, name: "evil"}, {shirt: "purple, name: "mighty"}];
+
+        <p>
+            Filter out all of the objects containing purple shirts
+        </p>
+
+
+        <textarea name="munchies2" rows="8" cols="40" id="munchies2" class="blocked"></textarea>
+        <button type="button" name="button" id="munchies2trigger" class="btn btn-success blocked">click me</button>
+        <div id="munchies2div"></div>
+        <img src="images/cats_filter2.png" id="catsfilter2_image" class="blocked" />
+    </div>
+    <!-- end filter -->
+
+    <!--- reduce --->
+
+    <div class="content_div blocked">
+        <h1> Batch 3: Reduce!  </h1>
+        <img src="images/cats_reduce1.png" id="catsreduce1_image" />
+        <p>Given an array of munchkin numbers as such: </p>
+        var munchkins = [5,7,2,10,1];
+
+        <p>
+            Use Array.reduce so that add all of the munchkin numbers are added together.
+        </p>
+
+
+        <textarea name="munchies3" rows="8" cols="40" id="munchies3" class="blocked"></textarea>
+        <button type="button" name="button" id="munchies3trigger" class="btn btn-success blocked">click me</button>
+        <div id="munchies3div"></div>
+        <img src="images/cats_reduce2.png" id="catsreduce2_image" class="blocked" />
+    </div>
+    <!-- end reduce -->
+
+    <!--- map --->
+
+    <div class="content_div blocked">
+        <h1> Batch 4: Map!  </h1>
+        <img src="images/cats_map1.png" id="catsmap1_image" />
+        <p>Given an array of munchkin numbers as such: </p>
+        var munchkins = [5,7,2,10,1];
+
+        <p>
+            Use Array.map so that each munchkin number is now the square of its original number [25,49,4,100,1]
+        </p>
+
+
+        <textarea name="munchies4" rows="8" cols="40" id="munchies4" class="blocked"></textarea>
+        <button type="button" name="button" id="munchies4trigger" class="btn btn-success blocked">click me</button>
+        <div id="munchies4div"></div>
+        <img src="images/cats_map2.png" id="catsmap2_image" class="blocked" />
+    </div>
+    <!-- end reduce -->
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./node_modules/codemirror/lib/codemirror.js"></script>
+    <script type="text/javascript" src="./node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./assets/jquery-scrollTo/lib/jquery-scrollto.js"></script>
+    <script type="text/javascript" src="./file.js"></script> 
+
+    </script>
+
+    <script type="text/javascript" src="./custom.js"></script>
+
+</body>
+
+</html>

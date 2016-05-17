@@ -12,7 +12,9 @@ $("#munchies1trigger").on("click", function (){
     $("#munchies1div").html("");
 
     var truck = [];
-    var user_input = $("#munchies1").val();
+    // var user_input = $("#munchies1").val();
+    var user_input = editorBatch1.getDoc().getValue();
+    console.log(user_input);
 
     if(user_input.length < 1){
       $("#munchies1div").html("you must enter some code");
